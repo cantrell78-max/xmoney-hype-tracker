@@ -24,6 +24,25 @@ Built live on [airomatic.ai](https://airomatic.ai/live/) with Grok Build.
 - Plotly charts: mentions over time, sentiment pie
 - Hype Score (0–100) from volume, engagement, and sentiment
 
+## Deploy to Hugging Face (auto-sync from GitHub)
+
+This repo syncs to the Space on every push to `main` via GitHub Actions.
+
+### 1. GitHub secret (one-time)
+
+In **GitHub → cantrell78-max/xmoney-hype-tracker → Settings → Secrets and variables → Actions**:
+
+| Secret | Value |
+|--------|-------|
+| `HF_TOKEN` | Hugging Face [write token](https://huggingface.co/settings/tokens) scoped to your Space |
+
+### 2. Hugging Face Space
+
+Create (or use) a Gradio Space named **`xmoney-hype-tracker`** under your HF account.  
+The workflow targets: `cantrell78-max/xmoney-hype-tracker` — edit `.github/workflows/sync-to-hub.yml` if your HF username differs.
+
+After adding `HF_TOKEN`, push to `main` or run the **Sync to Hugging Face Hub** workflow manually under **Actions**.
+
 ## Hugging Face Space secrets
 
 In your Space **Settings → Repository secrets**, add:
