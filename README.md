@@ -38,8 +38,7 @@ In **GitHub → cantrell78-max/xmoney-hype-tracker → Settings → Secrets and 
 
 ### 2. Hugging Face Space
 
-Create (or use) a Gradio Space named **`xmoney-hype-tracker`** under your HF account.  
-The workflow targets: `cantrell78-max/xmoney-hype-tracker` — edit `.github/workflows/sync-to-hub.yml` if your HF username differs.
+The workflow syncs to **[airomatic/xmoney](https://huggingface.co/spaces/airomatic/xmoney)** on Hugging Face.
 
 After adding `HF_TOKEN`, push to `main` or run the **Sync to Hugging Face Hub** workflow manually under **Actions**.
 

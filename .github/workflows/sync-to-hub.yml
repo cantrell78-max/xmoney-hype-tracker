@@ -14,7 +14,7 @@ jobs:
       - uses: huggingface/hub-sync@v0.1.0
         with:
           github_repo_id: ${{ github.repository }}
-          huggingface_repo_id: cantrell78-max/xmoney-hype-tracker
+          huggingface_repo_id: airomatic/xmoney
           hf_token: ${{ secrets.HF_TOKEN }}
           repo_type: space
           space_sdk: gradio
