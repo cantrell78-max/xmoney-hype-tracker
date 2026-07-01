@@ -70,7 +70,7 @@ def refresh_dashboard() -> tuple:
     )
 
 
-def build_ui() -> tuple[gr.Blocks, gr.themes.Theme]:
+def build_ui() -> gr.Blocks:
     theme = gr.themes.Soft(
         primary_hue="violet",
         secondary_hue="slate",
@@ -78,7 +78,7 @@ def build_ui() -> tuple[gr.Blocks, gr.themes.Theme]:
         font=gr.themes.GoogleFont("Inter"),
     )
 
-    with gr.Blocks(title="xMoney Hype Tracker") as demo:
+    with gr.Blocks(title="xMoney Hype Tracker", theme=theme, css=CUSTOM_CSS) as demo:
         gr.Markdown(
             """
             # xMoney Hype Tracker
@@ -123,15 +123,13 @@ def build_ui() -> tuple[gr.Blocks, gr.themes.Theme]:
         refresh_btn.click(refresh_dashboard, outputs=outputs)
         demo.load(refresh_dashboard, outputs=outputs)
 
-    return demo, theme
+    return demo
 
 
 def main() -> None:
-    demo, theme = build_ui()
+    demo = build_ui()
     demo.queue(default_concurrency_limit=2)
     demo.launch(
-        theme=theme,
-        css=CUSTOM_CSS,
         server_name=os.environ.get("GRADIO_SERVER_NAME", "0.0.0.0"),
         server_port=int(os.environ.get("PORT", "7860")),
     )
