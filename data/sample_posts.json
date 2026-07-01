@@ -1,0 +1,152 @@
+[
+  {
+    "id": "demo-001",
+    "text": "xMoney rollout is finally here. Just linked my card and the checkout flow is insanely smooth. This is what payments on X should feel like.",
+    "author": "crypto_sarah",
+    "created_at": "2026-07-01T14:22:00Z",
+    "likes": 842,
+    "retweets": 156,
+    "replies": 67,
+    "url": "https://x.com/demo/status/demo-001"
+  },
+  {
+    "id": "demo-002",
+    "text": "Anyone else getting xMoney in their region today? My feed is full of people flexing their first purchase. Hype is real.",
+    "author": "techpulse_daily",
+    "created_at": "2026-07-01T13:05:00Z",
+    "likes": 1204,
+    "retweets": 289,
+    "replies": 143,
+    "url": "https://x.com/demo/status/demo-002"
+  },
+  {
+    "id": "demo-003",
+    "text": "Tried x money for tipping creators — one tap, done. Rollout feels gradual but the UX is polished. Bullish on native payments here.",
+    "author": "builder_mike",
+    "created_at": "2026-07-01T11:48:00Z",
+    "likes": 531,
+    "retweets": 98,
+    "replies": 41,
+    "url": "https://x.com/demo/status/demo-003"
+  },
+  {
+    "id": "demo-004",
+    "text": "Still waiting on xMoney in the EU. Seeing US users post screenshots every hour. FOMO is hitting hard.",
+    "author": "euro_dev",
+    "created_at": "2026-07-01T10:30:00Z",
+    "likes": 678,
+    "retweets": 112,
+    "replies": 89,
+    "url": "https://x.com/demo/status/demo-004"
+  },
+  {
+    "id": "demo-005",
+    "text": "xMoney merchant onboarding looks straightforward for small businesses. If fees stay low this could eat a chunk of Stripe on X.",
+    "author": "saas_analyst",
+    "created_at": "2026-07-01T09:15:00Z",
+    "likes": 445,
+    "retweets": 87,
+    "replies": 52,
+    "url": "https://x.com/demo/status/demo-005"
+  },
+  {
+    "id": "demo-006",
+    "text": "Not impressed with x money support docs yet. Worked eventually but KYC step timed out twice. Early days I guess.",
+    "author": "honest_reviewer",
+    "created_at": "2026-07-01T08:02:00Z",
+    "likes": 198,
+    "retweets": 34,
+    "replies": 76,
+    "url": "https://x.com/demo/status/demo-006"
+  },
+  {
+    "id": "demo-007",
+    "text": "LIVE: xMoney hype tracker on airomatic.ai — Grok analyzing rollout sentiment in real time. Wild to watch the score move.",
+    "author": "airomatic",
+    "created_at": "2026-07-01T07:40:00Z",
+    "likes": 967,
+    "retweets": 201,
+    "replies": 58,
+    "url": "https://x.com/demo/status/demo-007"
+  },
+  {
+    "id": "demo-008",
+    "text": "xMoney + Grok commerce was teased months ago. Today's rollout posts confirm they're shipping. Momentum building.",
+    "author": "future_funds",
+    "created_at": "2026-07-01T06:18:00Z",
+    "likes": 723,
+    "retweets": 145,
+    "replies": 33,
+    "url": "https://x.com/demo/status/demo-008"
+  },
+  {
+    "id": "demo-009",
+    "text": "Skeptical about x money until I saw chargeback policy. Actually reasonable. Might enable more trust for in-feed purchases.",
+    "author": "fintech_nerd",
+    "created_at": "2026-07-01T04:55:00Z",
+    "likes": 312,
+    "retweets": 61,
+    "replies": 44,
+    "url": "https://x.com/demo/status/demo-009"
+  },
+  {
+    "id": "demo-010",
+    "text": "My xMoney limit is tiny but it worked for a $3 tip. Rollout wave-by-wave makes sense — they're stress-testing rails.",
+    "author": "early_adopter99",
+    "created_at": "2026-07-01T03:22:00Z",
+    "likes": 289,
+    "retweets": 47,
+    "replies": 29,
+    "url": "https://x.com/demo/status/demo-010"
+  },
+  {
+    "id": "demo-011",
+    "text": "x money search volume on X is exploding. Mentions up 3x since yesterday per my scraper. Hype cycle accelerating.",
+    "author": "data_dan",
+    "created_at": "2026-07-01T01:10:00Z",
+    "likes": 556,
+    "retweets": 118,
+    "replies": 37,
+    "url": "https://x.com/demo/status/demo-011"
+  },
+  {
+    "id": "demo-012",
+    "text": "Concerned about xMoney privacy — payment history tied to social graph. Great UX, uncomfortable tradeoff for some users.",
+    "author": "privacy_first",
+    "created_at": "2026-06-30T22:45:00Z",
+    "likes": 401,
+    "retweets": 92,
+    "replies": 112,
+    "url": "https://x.com/demo/status/demo-012"
+  },
+  {
+    "id": "demo-013",
+    "text": "Brands are already asking how to accept xMoney. Rollout marketing is organic — creators driving most of the buzz.",
+    "author": "brand_strategist",
+    "created_at": "2026-06-30T20:30:00Z",
+    "likes": 634,
+    "retweets": 134,
+    "replies": 48,
+    "url": "https://x.com/demo/status/demo-013"
+  },
+  {
+    "id": "demo-014",
+    "text": "xMoney failed on my first try, succeeded on retry. Bugs expected in week one but sentiment in my circles is mostly positive.",
+    "author": "beta_tester_x",
+    "created_at": "2026-06-30T18:12:00Z",
+    "likes": 167,
+    "retweets": 28,
+    "replies": 55,
+    "url": "https://x.com/demo/status/demo-014"
+  },
+  {
+    "id": "demo-015",
+    "text": "If x money goes global fast, this is the biggest native payments story since in-app purchase era. Watching closely.",
+    "author": "macro_takes",
+    "created_at": "2026-06-30T15:00:00Z",
+    "likes": 891,
+    "retweets": 178,
+    "replies": 64,
+    "url": "https://x.com/demo/status/demo-015"
+  }
+]
