@@ -2,8 +2,9 @@
 
 from __future__ import annotations
 
+import os
+
 import gradio as gr
-import plotly.graph_objects as go
 
 from analyzer import analyze_posts
 from config import settings
@@ -38,7 +39,12 @@ def _hype_score_html(score: int) -> str:
 
 def _status_line(source: str) -> str:
     api = "✓ Grok connected" if settings.xai_api_key else "⚠ Set XAI_API_KEY for AI summaries"
-    x_api = "✓ X API live" if source == "live" else f"📦 Demo data ({source})"
+    if source == "live" or source.startswith("live "):
+        x_api = f"✓ X API · {source}"
+    elif source == "demo":
+        x_api = "📦 Demo data (set X_BEARER_TOKEN for live posts)"
+    else:
+        x_api = f"📦 Demo data ({source})"
     return f"**xMoney Hype Tracker** · {x_api} · {api}"
 
 
@@ -126,7 +132,8 @@ def main() -> None:
     demo.launch(
         theme=theme,
         css=CUSTOM_CSS,
-        server_port=7860,
+        server_name=os.environ.get("GRADIO_SERVER_NAME", "0.0.0.0"),
+        server_port=int(os.environ.get("PORT", "7860")),
     )
 
 
